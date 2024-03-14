@@ -24,30 +24,23 @@
             <!-- Comment cart wrapper -/start -->
             <div class="max-w-[730px] mx-auto flex flex-col gap-5">
                 <!-- Single comment cart -/start -->
-                <div class="p-6 rounded-lg bg-white flex gap-6">
+                <div class="p-4 md:p-6 rounded-lg bg-white flex gap-4 md:gap-6">
                     <!-- Increment Decrement btn -/start -->
                     <div>
                         <div
                             class="bg-gray w-10 rounded-lg flex flex-col justify-start items-center align-middle overflow-hidden">
                             <!-- Increment button -->
                             <button class="px-3 py-[9px] hover:bg-primary/10 transition-colors duration-150">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8 4V8M8 8V12M8 8H12M8 8L4 8" stroke="#4D50AD" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
+                                <img src="assets/img/plus-icon.svg" alt="Plus icon" class="max-w-full">
                             </button>
                             <!-- Increment button -->
                             <!-- Number -/start -->
-                            <span class="text-base text-primary font-bold h-[34px] flex items-center">12</span>
+                            <span
+                                class="text-xs sm:text-sm md:text-base text-primary font-bold h-[34px] flex items-center">12</span>
                             <!-- Number -/end -->
                             <!-- Decrement button -->
                             <button class="px-3 py-[9px] hover:bg-primary/10 transition-colors duration-150">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 8H4" stroke="#4D50AD" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
+                                <img src="assets/img/minus-icon.svg" alt="Minus icon" class="max-w-full">
                             </button>
                             <!-- Decrement button -->
                         </div>
@@ -57,29 +50,27 @@
                     <div class="w-full">
                         <!-- Header -/start -->
                         <div class="flex justify-between items-center mb-[14px]">
-                            <div class="text-base flex gap-4 items-center ">
+                            <div class="text-xs sm:text-sm md:text-base flex gap-2 md:gap-4 sm:items-center">
                                 <!-- User image -->
                                 <img src="assets/img/user-img-1.webp" alt="User image"
-                                    class="max-w-full w-8 h-8 rounded-full">
+                                    class="max-w-full w-8 h-8 rounded-full mt-1 sm:mt-0">
                                 <!-- User image -->
-                                <!-- Name -->
-                                <h4 class="font-semibold text-dark-1">amyrobson</h4>
-                                <!-- Name -->
-                                <!-- Time -->
-                                <span class=" text-dark-2 font-medium">
-                                    1 month ago
-                                </span>
-                                <!-- Time -->
+                                <div class="flex gap-[1px] sm:gap-4 flex-col sm:flex-row">
+                                    <!-- Name -->
+                                    <h4 class="font-semibold text-dark-1">amyrobson</h4>
+                                    <!-- Name -->
+                                    <!-- Time -->
+                                    <span class=" text-dark-2 font-medium">
+                                        1 month ago
+                                    </span>
+                                    <!-- Time -->
+                                </div>
                             </div>
                             <!-- Reply button -->
-                            <button class="flex gap-2 items-center text-base font-semibold text-primary">
+                            <button class="flex gap-2 items-center text-xs sm:text-sm md:text-base font-semibold text-primary">
                                 <span>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.441059 5.98083L5.81228 1.34261C6.28243 0.936583 7.02343 1.26621 7.02343 1.89693V4.33996C11.9254 4.39608 15.8125 5.37855 15.8125 10.0241C15.8125 11.8991 14.6046 13.7567 13.2694 14.7279C12.8527 15.0309 12.2589 14.6505 12.4125 14.1593C13.7963 9.73389 11.7562 8.55902 7.02343 8.49089V11.1739C7.02343 11.8056 6.28187 12.1337 5.81228 11.7282L0.441059 7.08949C0.103215 6.79768 0.102746 6.27305 0.441059 5.98083Z"
-                                            fill="#4D50AD" />
-                                    </svg>
+                                    <img src="assets/img/reply-icon.svg" alt="Reply icon"
+                                        class="max-w-full w-[14px] md:w-4">
                                 </span>
                                 Reply
                             </button>
@@ -87,7 +78,7 @@
                         </div>
                         <!-- Header -/end -->
                         <!-- Comment content -/start -->
-                        <p class="text-dark-4 font-medium">
+                        <p class="text-dark-4 font-medium text-xs sm:text-sm md:text-base">
                             Impressive! Though it seems the drag feature could be improved. But overall it looks
                             incredible. You've nailed the design and the responsiveness at various breakpoints works
                             really well.
@@ -97,32 +88,25 @@
                     <!-- Comment cart body -/end -->
                 </div>
                 <!-- Single comment cart -/end -->
+
                 <!-- Single comment cart -/start -->
-                <div class="p-6 rounded-lg bg-white flex gap-6">
+                <div class="p-4 md:p-6 rounded-lg bg-white flex gap-4 md:gap-6">
                     <!-- Increment Decrement btn -/start -->
                     <div>
-
                         <div
                             class="bg-gray w-10 rounded-lg flex flex-col justify-start items-center align-middle overflow-hidden">
                             <!-- Increment button -->
                             <button class="px-3 py-[9px] hover:bg-primary/10 transition-colors duration-150">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8 4V8M8 8V12M8 8H12M8 8L4 8" stroke="#4D50AD" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
+                                <img src="assets/img/plus-icon.svg" alt="Plus icon" class="max-w-full">
                             </button>
                             <!-- Increment button -->
                             <!-- Number -/start -->
-                            <span class="text-base text-primary font-bold h-[34px] flex items-center">5</span>
+                            <span
+                                class="text-xs sm:text-sm md:text-base text-primary font-bold h-[34px] flex items-center">5</span>
                             <!-- Number -/end -->
                             <!-- Decrement button -->
                             <button class="px-3 py-[9px] hover:bg-primary/10 transition-colors duration-150">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 8H4" stroke="#4D50AD" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
+                                <img src="assets/img/minus-icon.svg" alt="Minus icon" class="max-w-full">
                             </button>
                             <!-- Decrement button -->
                         </div>
@@ -132,29 +116,27 @@
                     <div class="w-full">
                         <!-- Header -/start -->
                         <div class="flex justify-between items-center mb-[14px]">
-                            <div class="text-base flex gap-4 items-center ">
+                            <div class="text-xs sm:text-sm md:text-base flex gap-2 md:gap-4 sm:items-center">
                                 <!-- User image -->
                                 <img src="assets/img/user-img-2.jpg" alt="User image"
-                                    class="max-w-full w-8 h-8 rounded-full">
+                                    class="max-w-full w-8 h-8 rounded-full mt-1 sm:mt-0">
                                 <!-- User image -->
-                                <!-- Name -->
-                                <h4 class="font-semibold text-dark-1">maxblagun</h4>
-                                <!-- Name -->
-                                <!-- Time -->
-                                <span class=" text-dark-2 font-medium">
-                                    2 weeks ago
-                                </span>
-                                <!-- Time -->
+                                <div class="flex gap-[1px] sm:gap-4 flex-col sm:flex-row">
+                                    <!-- Name -->
+                                    <h4 class="font-semibold text-dark-1">maxblagun</h4>
+                                    <!-- Name -->
+                                    <!-- Time -->
+                                    <span class=" text-dark-2 font-medium">
+                                        2 weeks ago
+                                    </span>
+                                    <!-- Time -->
+                                </div>
                             </div>
                             <!-- Reply button -->
-                            <button class="flex gap-2 items-center text-base font-semibold text-primary">
+                            <button class="flex gap-2 items-center text-xs sm:text-sm md:text-base font-semibold text-primary">
                                 <span>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.441059 5.98083L5.81228 1.34261C6.28243 0.936583 7.02343 1.26621 7.02343 1.89693V4.33996C11.9254 4.39608 15.8125 5.37855 15.8125 10.0241C15.8125 11.8991 14.6046 13.7567 13.2694 14.7279C12.8527 15.0309 12.2589 14.6505 12.4125 14.1593C13.7963 9.73389 11.7562 8.55902 7.02343 8.49089V11.1739C7.02343 11.8056 6.28187 12.1337 5.81228 11.7282L0.441059 7.08949C0.103215 6.79768 0.102746 6.27305 0.441059 5.98083Z"
-                                            fill="#4D50AD" />
-                                    </svg>
+                                    <img src="assets/img/reply-icon.svg" alt="Reply icon"
+                                        class="max-w-full w-[14px] md:w-4">
                                 </span>
                                 Reply
                             </button>
@@ -162,7 +144,7 @@
                         </div>
                         <!-- Header -/end -->
                         <!-- Comment content -/start -->
-                        <p class="text-dark-4 font-medium">
+                        <p class="text-dark-4 font-medium text-xs sm:text-sm md:text-base">
                             Woah, your project looks awesome! How long have you been coding for? I'm still new, but
                             think I want to dive into React as well soon. Perhaps you can give me an insight on where I
                             can learn React? Thanks!
@@ -172,36 +154,30 @@
                     <!-- Comment cart body -/end -->
                 </div>
                 <!-- Single comment cart -/end -->
+
                 <!-- Reply comment -->
-                <div class="flex flex-col items-end ps-[88px]">
+                <div class="flex flex-col items-end ps-10 sm:ps-[60px] md:ps-[88px]">
                     <div
-                        class="relative before:absolute before:content-[''] before:w-[2px] before:h-full before:-left-11 before:top-0 before:bg-dark-3 flex flex-col gap-5">
+                        class="relative before:absolute before:content-[''] before:w-[2px] before:h-full before:-left-[22px] sm:before:-left-[32px] md:before:-left-11 before:top-0 before:bg-dark-3 flex flex-col gap-5">
 
                         <!-- Single comment cart -/start -->
-                        <div class="p-6 rounded-lg bg-white flex gap-6">
+                        <div class="p-4 md:p-6 rounded-lg bg-white flex gap-4 md:gap-6">
                             <!-- Increment Decrement btn -/start -->
                             <div>
                                 <div
                                     class="bg-gray w-10 rounded-lg flex flex-col justify-start items-center align-middle overflow-hidden">
                                     <!-- Increment button -->
                                     <button class="px-3 py-[9px] hover:bg-primary/10 transition-colors duration-150">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8 4V8M8 8V12M8 8H12M8 8L4 8" stroke="#4D50AD" stroke-width="1.5"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                                        <img src="assets/img/plus-icon.svg" alt="Plus icon" class="max-w-full">
                                     </button>
                                     <!-- Increment button -->
                                     <!-- Number -/start -->
-                                    <span class="text-base text-primary font-bold h-[34px] flex items-center">4</span>
+                                    <span
+                                        class="text-xs sm:text-sm md:text-base text-primary font-bold h-[34px] flex items-center">4</span>
                                     <!-- Number -/end -->
                                     <!-- Decrement button -->
                                     <button class="px-3 py-[9px] hover:bg-primary/10 transition-colors duration-150">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 8H4" stroke="#4D50AD" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
+                                        <img src="assets/img/minus-icon.svg" alt="Minus icon" class="max-w-full">
                                     </button>
                                     <!-- Decrement button -->
                                 </div>
@@ -211,32 +187,30 @@
                             <div class="w-full">
                                 <!-- Header -/start -->
                                 <div class="flex justify-between items-center mb-[14px]">
-                                    <div class="text-base flex gap-4 items-center ">
+                                    <div class="text-xs sm:text-sm md:text-base flex gap-2 md:gap-4 md:items-center">
                                         <!-- User image -->
                                         <img src="assets/img/user-img-3.jpg" alt="User image"
-                                            class="max-w-full w-8 h-8 rounded-full">
+                                            class="max-w-full w-8 h-8 rounded-full mt-1 md:mt-0">
                                         <!-- User image -->
-                                        <!-- Name -->
-                                        <h4 class="font-semibold text-dark-1">ramsesmiron</h4>
-                                        <!-- Name -->
-                                        <!-- Time -->
-                                        <span class=" text-dark-2 font-medium">
-                                            1 week ago
-                                        </span>
-                                        <!-- Time -->
+                                        <div class="flex gap-[1px] md:gap-4 flex-col md:flex-row">
+                                            <!-- Name -->
+                                            <h4 class="font-semibold text-dark-1">ramsesmiron</h4>
+                                            <!-- Name -->
+                                            <!-- Time -->
+                                            <span class=" text-dark-2 font-medium">
+                                                1 week ago
+                                            </span>
+                                            <!-- Time -->
+                                        </div>
                                     </div>
-
                                     <!-- Reply, Edit & Delete button -->
                                     <div class="flex justify-end gap-6">
                                         <!-- Reply button -->
-                                        <button class="flex gap-2 items-center text-base font-semibold text-primary">
+                                        <button
+                                            class="flex gap-2 items-center text-xs sm:text-sm md:text-base font-semibold text-primary">
                                             <span>
-                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M0.441059 5.98083L5.81228 1.34261C6.28243 0.936583 7.02343 1.26621 7.02343 1.89693V4.33996C11.9254 4.39608 15.8125 5.37855 15.8125 10.0241C15.8125 11.8991 14.6046 13.7567 13.2694 14.7279C12.8527 15.0309 12.2589 14.6505 12.4125 14.1593C13.7963 9.73389 11.7562 8.55902 7.02343 8.49089V11.1739C7.02343 11.8056 6.28187 12.1337 5.81228 11.7282L0.441059 7.08949C0.103215 6.79768 0.102746 6.27305 0.441059 5.98083Z"
-                                                        fill="#4D50AD" />
-                                                </svg>
+                                                <img src="assets/img/reply-icon.svg" alt="Reply icon"
+                                                    class="max-w-full w-[14px] md:w-4">
                                             </span>
                                             Reply
                                         </button>
@@ -246,7 +220,7 @@
                                 </div>
                                 <!-- Header -/end -->
                                 <!-- Comment content -/start -->
-                                <p class="text-dark-4 font-medium">
+                                <p class="text-dark-4 font-medium text-xs sm:text-sm md:text-base">
                                     <a href="#maxblagun" class="font-bold text-primary">@maxblagun</a> If you're still
                                     new, I'd recommend
                                     focusing on the fundamentals of HTML, CSS, and JS before considering React. It's
@@ -259,31 +233,23 @@
                         <!-- Single comment cart -/end -->
 
                         <!-- Single comment cart -/start -->
-                        <div class="p-6 rounded-lg bg-white flex gap-6">
+                        <div class="p-4 md:p-6 rounded-lg bg-white flex gap-4 md:gap-6">
                             <!-- Increment Decrement btn -/start -->
                             <div>
-
                                 <div
                                     class="bg-gray w-10 rounded-lg flex flex-col justify-start items-center align-middle overflow-hidden">
                                     <!-- Increment button -->
                                     <button class="px-3 py-[9px] hover:bg-primary/10 transition-colors duration-150">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8 4V8M8 8V12M8 8H12M8 8L4 8" stroke="#4D50AD" stroke-width="1.5"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                                        <img src="assets/img/plus-icon.svg" alt="Plus icon" class="max-w-full">
                                     </button>
                                     <!-- Increment button -->
                                     <!-- Number -/start -->
-                                    <span class="text-base text-primary font-bold h-[34px] flex items-center">2</span>
+                                    <span
+                                        class="text-xs sm:text-sm md:text-base text-primary font-bold h-[34px] flex items-center">2</span>
                                     <!-- Number -/end -->
                                     <!-- Decrement button -->
                                     <button class="px-3 py-[9px] hover:bg-primary/10 transition-colors duration-150">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 8H4" stroke="#4D50AD" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
+                                        <img src="assets/img/minus-icon.svg" alt="Minus icon" class="max-w-full">
                                     </button>
                                     <!-- Decrement button -->
                                 </div>
@@ -292,53 +258,41 @@
                             <!-- Comment cart body -/start -->
                             <div class="w-full">
                                 <!-- Header -/start -->
-                                <div class="flex justify-between items-center mb-[14px]">
-                                    <div class="text-base flex gap-4 items-center ">
+                                <div class="flex justify-between items-center mb-[14px] gap-4">
+                                    <div class="text-xs sm:text-sm md:text-base flex gap-2 md:gap-4 md:items-center ">
                                         <!-- User image -->
                                         <img src="assets/img/user-img-4.jpg" alt="User image"
-                                            class="max-w-full w-8 h-8 rounded-full">
+                                            class="max-w-full w-8 h-8 rounded-full mt-1 md:mt-0">
                                         <!-- User image -->
-                                        <!-- Name -->
-                                        <h4 class="font-semibold text-dark-1">juliusomo</h4>
-                                        <!-- Name -->
-                                        <!-- Time -->
-                                        <span class=" text-dark-2 font-medium">
-                                            2 days ago
-                                        </span>
-                                        <!-- Time -->
+                                        <div class="flex gap-[1px] md:gap-4 flex-col md:flex-row">
+                                            <!-- Name -->
+                                            <h4 class="font-semibold text-dark-1">juliusomo</h4>
+                                            <!-- Name -->
+                                            <!-- Time -->
+                                            <span class=" text-dark-2 font-medium">
+                                                2 days ago
+                                            </span>
+                                            <!-- Time -->
+                                        </div>
                                     </div>
                                     <!-- Reply, Edit & Delete button -->
-                                    <div class="flex justify-end gap-6">
+                                    <div class="flex flex-col md:flex-row justify-end items-end gap-2 md:gap-6">
                                         <!-- Delete button -->
-                                        <button class="flex gap-2 items-center text-base font-semibold text-red">
+                                        <button
+                                            class="flex gap-2 items-center text-xs sm:text-sm md:text-base font-semibold text-red">
                                             <span>
-                                                <svg width="13" height="16" viewBox="0 0 13 16" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M0.890625 14.2223C0.890625 15.2046 1.68617 16.0001 2.66842 16.0001H9.77954C10.7618 16.0001 11.5573 15.2046 11.5573 14.2223V3.55566H0.890625V14.2223Z"
-                                                        fill="#FF5252" />
-                                                    <path
-                                                        d="M9.33333 0.888875L8.44442 0H4L3.11108 0.888875H0V2.66667H12.4444V0.888875H9.33333Z"
-                                                        fill="#FF5252" />
-                                                </svg>
-
+                                                <img src="assets/img/delete-icon.svg" alt="Delete icon"
+                                                    class="max-w-full w-[11px] md:w-4">
                                             </span>
                                             Delete
                                         </button>
                                         <!-- Delete button -->
                                         <!-- Edit btn -->
-                                        <button class="flex gap-2 items-center text-base font-semibold text-primary">
+                                        <button
+                                            class="flex gap-2 items-center text-xs sm:text-sm md:text-base font-semibold text-primary">
                                             <span>
-                                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M15.6842 2.34602L13.6578 0.311624C13.5273 0.20005 13.3759 0.115461 13.2124 0.0627435C13.049 0.0100263 12.8767 -0.00977306 12.7055 0.00448975C12.5344 0.0187525 12.3678 0.0667947 12.2153 0.14584C12.0628 0.224884 11.9275 0.333364 11.8172 0.46501L9.97656 2.34602L13.6901 6.05959L15.5308 4.21895C15.8208 3.93905 15.989 3.55625 15.999 3.15331C16.005 3.00432 15.9801 2.85569 15.926 2.71676C15.8718 2.57784 15.7895 2.45161 15.6842 2.34602Z"
-                                                        fill="#4D50AD" />
-                                                    <path
-                                                        d="M9.12094 3.15332L1.16905 11.1214C0.946403 11.3409 0.794573 11.6221 0.733107 11.9287L0.0226839 14.9722C-0.010069 15.1143 -0.00731592 15.2623 0.0307 15.4031C0.0687158 15.5439 0.140824 15.6732 0.240654 15.7795C0.404013 15.9348 0.620735 16.0215 0.846128 16.0217C0.918569 16.0296 0.991659 16.0296 1.0641 16.0217L4.10762 15.2628C4.41321 15.1986 4.69363 15.0472 4.91491 14.8269L12.8749 6.87497L9.12094 3.15332Z"
-                                                        fill="#4D50AD" />
-                                                </svg>
-
+                                                <img src="assets/img/edit-icon.svg" alt="Edit icon"
+                                                    class="max-w-full w-[14px] md:w-4">
                                             </span>
                                             Edit
                                         </button>
@@ -348,7 +302,7 @@
                                 </div>
                                 <!-- Header -/end -->
                                 <!-- Comment content -/start -->
-                                <p class="text-dark-4 font-medium">
+                                <p class="text-dark-4 font-medium text-xs sm:text-sm md:text-base">
                                     <a href="#maxblagun" class="font-bold text-primary">@ramsesmiron </a> I couldn't
                                     agree more with this. Everything moves so fast and it always seems like everyone
                                     knows the newest library/ framework. But the fundamentals are what stay constant.
@@ -365,23 +319,26 @@
 
                 <!-- Write comment -/start -->
                 <div>
-                    <div class="p-6 rounded-lg bg-white flex gap-4">
-                        <!-- User image -->
-                        <div class="w-14">
-                            <img src="assets/img/user-img-4.jpg" alt="User" class="max-w-full w-10 h-10 rounded-full">
+                    <div class="p-4 md:p-6 rounded-lg bg-white flex flex-col sm:flex-row items-end sm:items-start gap-3 md:gap-6">
+                        <div class="flex gap-3 md:gap-4 w-full">
+                            <!-- User image -->
+                            <div class="w-14">
+                                <img src="assets/img/user-img-4.jpg" alt="User"
+                                    class="max-w-full w-10 h-10 rounded-full">
+                            </div>
+                            <!-- User image -->
+                            <!-- Comment box -->
+                            <div class="w-full flex">
+                                <textarea name="" id=""
+                                    class="border border-dark-5 w-full rounded-lg resize-none h-24 focus-visible:outline-none px-3 md:px-6 py-3 text-dark-4 font-medium focus:border-primary/40 text-xs sm:text-sm md:text-base"
+                                    placeholder="Add a comment..."></textarea>
+                            </div>
+                            <!-- Comment box -->
                         </div>
-                        <!-- User image -->
-                        <!-- Comment box -->
-                        <div class="w-full flex">
-                            <textarea name="" id=""
-                                class="border border-dark-5 w-full rounded-lg resize-none h-24 focus-visible:outline-none px-6 py-3 text-dark-4 font-medium focus:border-primary/40"
-                                placeholder="Add a comment..."></textarea>
-                        </div>
-                        <!-- Comment box -->
                         <!-- Send Button -->
                         <div class="w-auto">
                             <button
-                                class="bg-primary hover:bg-primary/20 transition-all duration-200 hover:text-primary uppercase text-white rounded-lg px-7 py-3 font-bold h-12">Send</button>
+                                class="bg-primary hover:bg-primary/20 transition-all duration-200 hover:text-primary uppercase text-white rounded-lg px-4 md:px-7 py-[10px] md:py-3 font-bold h-10 md:h-12 text-xs sm:text-sm md:text-base">Send</button>
                         </div>
                         <!-- Send Button -->
                     </div>
